@@ -1,6 +1,4 @@
-#  File Processor and Logging System Design Sample
-
-# Using Java Spring
+#  File Processor and Logging System Design Sample Using Java Spring
 
 This is a sample code to demonstrate my coding philosophy. I have incorporated entire functionality and code contains proper and thorough commenting to explain the functionality of program. I used dependency injection and factory design pattern ( **JPARepository** for persistence Database operations)
 
@@ -16,3 +14,9 @@ Salient feature of process:
 - Multi-threaded application with manual thread manager: Incorporated the thread pool. Based on processor and CPU consumption parallel thread can be managed using **Constants.NUM\_THREADS**.
 
 **Project Structure:**
+
+![Package Information](./ProjectStructure.jpg?raw=true "Package Information")
+
+**For detailed analysis, please follow the Detailed design given in figure below:**
+
+![System Design](./FinalDesignDiagram.jpg?raw=true "System Design")
